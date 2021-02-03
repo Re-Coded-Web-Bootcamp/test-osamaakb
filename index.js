@@ -7,7 +7,6 @@ let mondayWork = function (activity = "go to the office") {
 function wrapAdjective(visual = "*") {
     return function (however = "special") {
         return `You are ${visual}${however}${visual}!`
-
     }
 }
 wrapAdjective("%")("a dedicated programmer")
